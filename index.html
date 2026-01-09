@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nabila | Web Developer Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+ <nav class="navbar">
+  <div class="logo">NK</div>
+
+  <ul class="nav-links" id="navLinks">
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+
+  <div class="hamburger" onclick="toggleMenu()">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</nav>
+
+  <header class="hero">
+    <div class="hero-content">
+      <h1>Nabila Kitenge</h1>
+      <p>Upcoming Web Developer and Student • HTML • CSS • JavaScript</p>
+      <a href="#projects" class="btn">View My Work</a>
+    </div>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      I am an upcoming web developer passionate about creating modern,
+      responsive, and visually striking websites.I graduated from high school in 2024, achieving a 96% distinction in Drama, which strengthened my creativity, confidence, and communication skills. I also obtained a certificate from Keyline after completing a Design Career Workshop, where I gained valuable insight into creative and professional design pathways.
+I have work experience as a Personal Assistant at a foundation, where I developed strong organizational, communication, and multitasking skills. I am currently a student and deeply passionate about my work and continuous learning.
+I take initiative in my studies and often go beyond the curriculum—teaching myself advanced concepts and exploring my course material independently while others focus on the basics. I am a fast learner, highly adaptable, and skilled at multitasking, with a strong drive to grow and excel in the tech and design space.
+    </p>
+  
+
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills">
+      <div class="card">HTML5</div>
+      <div class="card">CSS3</div>
+      <div class="card">Responsive Design</div>
+      <div class="card">JavaScript (Basics)</div>
+      <div class="card">UI / UX Basics</div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="project-card">
+  <img src="images/Capture.PNG" alt="Neon Portfolio Website" class="project-img">
+  <div class="project-gallery scroll">
+  <img src="images/Capture2.PNG">
+  <img src="images/Capture3.PNG">
+  <img src="images/Capture4.PNG">
+  <img src="images/Capture5.PNG">
+  <img src="images/Capture6.PNG">
+</div>
+
+
+  <h3>Neon Portfolio Website</h3>
+  <p>
+    A personal portfolio built using HTML and CSS with neon animations
+    and responsive design.
+  </p>
+
+  <div class="project-links">
+    <a href="#" target="_blank">Live</a>
+    <a href="#" target="_blank">Code</a>
+  </div>
+</div>
+
+    <h2>Projects</h2>
+    <div class="projects">
+      <div class="project-card">
+        <h3>Portfolio Website</h3>
+        <p>Personal portfolio using HTML & CSS.</p>
+      </div>
+      <div class="project-card">
+        <h3>Business Landing Page</h3>
+        <p>A clean landing page for a small business.</p>
+      </div>
+      <div class="project-card">
+        <h3>Coming Soon</h3>
+        <p>More projects in development.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: kitengenabila54@email.com</p>
+    <p>GitHub: github.com/nabila-kitenge</p>
+    <p>phone number: 0699992053</p>
+  </section>
+<div class="end-profile">
+  <img src="images/me.jpeg" alt="Profile photo">
+</div>
+
+  <footer>
+    <p>© 2026 Nabila Kitenge</p>
+  </footer>
+<script>
+  function toggleMenu() {
+    document.getElementById("navLinks").classList.toggle("active");
+  }
+</script>
+<button class="theme-toggle" onclick="toggleTheme()">🌸</button>
+
+
+</body>
+</html>
